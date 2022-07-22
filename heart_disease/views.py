@@ -21,6 +21,7 @@ def predict(request):
     oldpeak = request.POST.get('oldpeak')
     ST_slope = request.POST.get('ST_slope')
 
+
     attr = [
         age, sex, chest_pain_type, resting_bp_s, cholesterol, fasting_blood_sugar,
         resting_ecg, max_heart_rate, exercise_angina, oldpeak, ST_slope
